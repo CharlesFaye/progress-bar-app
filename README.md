@@ -25,7 +25,10 @@ This is a simple Progress Bar application built using HTML, CSS, and JavaScript.
 ```bash
 git clone https://github.com/CharlesFaye/progress-bar-app.git
 
-2. Open the index.html file in your browser, or use Live Server.
+3. Navigate into the folder
+cd progress-bar-app
+
+3. Open the index.html file in your browser, or use Live Server.
 
 🧠 How It Works
 . A container represents the full width (100%) of the progress bar.
