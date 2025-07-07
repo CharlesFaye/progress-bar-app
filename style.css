@@ -1,0 +1,55 @@
+/**
+** BODY 
+**/
+body {
+    margin: 50px auto;
+    width: 900px;
+    background-color: whitesmoke;
+}
+/**
+**SKILLS SECTION
+**/
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+#skills > div {
+    background-color: white;
+    padding: 30px 10px 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#skills > div > progress {
+    width: 25vw;
+    padding: 12px;
+}
+
+#skills > div > p {
+    position: absolute;
+    top: -7px;
+}
+#skills > div > span {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: blue;
+}
+/**
+    MEDIA QUERIES FOR SMALL SCREENS
+**/
+@media screen and (max-width : 768px) {
+    body {
+        max-width: 50vw;
+    }
+    #skills {
+    display: flex;
+    flex-direction: column;
+    }
+    #skills > div > progress {
+    width: 50vw;
+    }
+}
+
